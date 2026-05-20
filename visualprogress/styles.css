@@ -1,0 +1,132 @@
+.dashboard-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.dashboard-subtitle {
+    font-size: 15px;
+    color: #6B7280;
+    margin-bottom: 28px;
+}
+
+.progress-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.progress-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 110px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #F3F4F6;
+}
+
+.progress-card p {
+    color: #6B7280;
+    margin: 0 0 8px 0;
+    font-size: 13px;
+}
+
+.progress-card h3 {
+    font-size: 30px;
+    margin: 0 0 8px 0;
+    font-weight: 700;
+    color: #111827;
+}
+
+.progress-card span {
+    color: #6B7280;
+    font-size: 12px;
+}
+
+.dashboard-charts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.chart-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    min-height: 340px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #F3F4F6;
+}
+
+.chart-card h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.chart-card canvas {
+    max-height: 260px;
+}
+.activity-table-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 24px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #F3F4F6;
+}
+
+.activity-table-card h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.activity-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.activity-table thead {
+    background: #F3F4F6;
+}
+
+.activity-table th,
+.activity-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.activity-table th {
+    font-weight: 700;
+    color: #374151;
+}
+
+.activity-table td {
+    color: #111827;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-success {
+    background: #DCFCE7;
+    color: #16A34A;
+}
+
+.badge-danger {
+    background: #FEE2E2;
+    color: #DC2626;
+}
